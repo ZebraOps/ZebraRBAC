@@ -1,6 +1,8 @@
-# Zebra-RBAC
-
-基于 FastAPI 的通用 RBAC（基于角色的访问控制）权限管理系统
+<div align="center">
+	<h1>Zebra-RBAC</h1>
+  <p>基于 FastAPI 的通用 RBAC（基于角色的访问控制）权限管理系统</p>
+  <span>中文 | <a href="./README.en.md">English</a></span>
+</div>
 
 ---
 

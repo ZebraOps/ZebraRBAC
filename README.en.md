@@ -1,6 +1,8 @@
-# Zebra-RBAC
-
-A Universal RBAC Permission Management System Based On FastAPI
+<div align="center">
+	<h1>Zebra-RBAC</h1>
+  <p>A Universal RBAC Permission Management System Based On FastAPI</p>
+  <span><a href="./README.md">Chinese</a> | English</span>
+</div>
 
 ---
 

@@ -1,0 +1,37 @@
+Generic single-database configuration.
+创建初始迁移
+alembic revision --autogenerate -m "Initial migration"
+应用迁移
+alembic upgrade head
+在后续开发中，当你修改了模型后，可以使用以下命令生成新的迁移
+alembic revision --autogenerate -m "描述你的变更"
+
+# 查看当前数据库版本
+alembic current
+
+# 查看迁移历史
+alembic history
+
+# 升级到最新版本
+alembic upgrade head
+
+# 回滚到上一个版本
+alembic downgrade -1
+
+# 生成新的迁移脚本
+alembic revision --autogenerate -m "your message"
+
+
+## 如果版本混乱操作如下
+# 删除 migrations/versions 下的所有迁移文件（仅限开发初期）
+rm -rf migrations/versions/*
+
+# 清空 alembic_version 表（可选，用于重置历史）
+# 如果使用 PostgreSQL：
+psql -c "DELETE FROM alembic_version;" -d your_db_name
+
+# 重新生成初始迁移文件
+alembic revision --autogenerate -m "init"
+
+# 应用应用变更迁移到数据表中
+alembic upgrade head

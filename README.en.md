@@ -206,11 +206,6 @@ To contribute code improvements:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
----
 
 ## 💬 Contact & Support
 
@@ -220,10 +215,6 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 
-## 🎯 Project Goals
+## 📄 License
 
-Zebra-RBAC aims to provide an easy-to-integrate, feature-complete, and highly extensible permission management solution to help developers quickly build secure and flexible permission systems.
-
----
-
-**Made with ❤️ by ZebraOps**
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.

@@ -206,11 +206,6 @@ curl http://localhost:8000/api/users/1/permissions \
 
 ---
 
-## 📄 License
-
-本项目采用 MIT 许可证，详见 [LICENSE](./LICENSE) 文件。
-
----
 
 ## 💬 联系方式
 
@@ -220,10 +215,6 @@ curl http://localhost:8000/api/users/1/permissions \
 
 ---
 
-## 🎯 项目目标
+## 📄 License
 
-Zebra-RBAC 致力于提供一个易于集成、功能完整且高度可扩展的权限管理解决方案，帮助开发者快速构建安全、灵活的权限系统。
-
----
-
-**Made with ❤️ by ZebraOps**
+本项目采用 MIT 许可证，详见 [LICENSE](./LICENSE) 文件。
